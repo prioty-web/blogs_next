@@ -17,7 +17,7 @@ const Navbar = async () => {
                 <ul className="text-xl flex gap-6">
 
                     <li><Link href='/'> Home |</Link></li>
-                    <li><Link href='/blogs'> Blogs |</Link></li>
+                    
                     <li><Link href='/profile'> Profile |</Link></li>
 
                     {user && isUserAuthenticated ? <li>
